@@ -117,47 +117,37 @@
       $tweet = document.querySelector('.tweet'),
       $like = document.querySelector('.like'),
       $youtube = document.querySelector('.youtube'),
-      $gplus = document.querySelector('.gplus'),
 
       $address = getId('address'),
       $geo = getId('js-geo'),
       $phone = getId('phone'),
-      $form = getId('form'),
-      $noResponsive = getId('no-responsive');
+      $form = getId('form');
 
     $sabores = [].slice.call($sabores);
 
-    $noResponsive.onclick = function () {
-      var vps = document.querySelectorAll("meta[name='viewport']");
-      vps[0].content = 'width=960px,initial-scale=0.3,user-scalable=yes';
-    };
 
-
-    $telefone.onkeypress = function () {
+    $telefone.addEventListener('keypress', function () {
       mascara(this, mtel);
-    };
-    $cep.onkeypress = function () {
+    });
+    $cep.addEventListener('keypress', function () {
       mascara(this, mcep);
-    };
-    $cep.onkeyup = function () {
+    });
+    $cep.addEventListener('keyup', function () {
       $address.innerHTML = '';
-    };
-    $tweet.onclick = function () {
+    });
+    $tweet.addEventListener('click', function () {
       _gaq.push(['_trackEvent', 'twitter Button', this.href, this.title]);
-    };
-    $like.onclick = function () {
+    });
+    $like.addEventListener('click', function () {
       _gaq.push(['_trackEvent', 'facebook Button', this.href, this.title]);
-    };
-    $youtube.onclick = function () {
+    });
+    $youtube.addEventListener('click', function () {
       _gaq.push(['_trackEvent', 'youtube Button', this.href, this.title]);
-    };
-    $gplus.onclick = function () {
-      _gaq.push(['_trackEvent', 'google plus Button', this.href, this.title]);
-    };
-    $geo.onclick = function () {
+    });
+    $geo.addEventListener('click', function () {
       navigator.geolocation.getCurrentPosition(success, error);
-    };
-    $form.onsubmit = function (event) {
+    });
+    $form.addEventListener('submit', function (event) {
       event.preventDefault();
 
       if ($telefone.value === '') {
@@ -202,7 +192,7 @@
           alert('Por favor tente novamente, ou nos peça por email strudelfolhadinho@gmail.com');
         }
       });
-    };
+    });
 
     /* changing the telephone acording to the day hour */
     XHR.getJSON({
