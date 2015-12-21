@@ -40,3 +40,6 @@ a:hover, a:focus { opacity: 0.9; }
 #logo-footer {
   width: 200px;
 }
+
+.footer-text { margin-top: 50px; }
+.social-links { margin-left: 10px; }
