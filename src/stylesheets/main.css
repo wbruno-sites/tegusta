@@ -1,8 +1,11 @@
 html, body { min-height: 100%; }
 
 body {
-  background: url('../images/bg-site.jpg') no-repeat center top;
+  background: url('../images/bg-site.png') no-repeat center top;
   font: 18px 'yanone_kaffeesatzlight', sans-serif;
+}
+body#home {
+  background-image: url('../images/bg-site-home.jpg');
 }
 
 h1, h2, h3, h4, h5, h6, .title {
