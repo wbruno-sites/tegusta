@@ -2,7 +2,7 @@
 
 let products = {
   carne: {
-    name: 'Empanada de Carne', description: 'A tradicional empanada de carne, típico argentina',
+    name: 'Empanada de Carne', description: 'A tradicional empanada de carne moída, típico argentina',
     price: '4,00', url: '/empanada-de-carne.html'
   },
   carnePimenta: {
