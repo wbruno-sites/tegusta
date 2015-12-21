@@ -1,0 +1,42 @@
+html, body { min-height: 100%; }
+
+body {
+  background: url('../images/bg-site.jpg') no-repeat center top;
+}
+
+@font-face {
+  font-family: 'bira';
+  src: url('../fonts/bira_personal_use_only-webfont.eot');
+  src: url('../fonts/bira_personal_use_only-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bira_personal_use_only-webfont.woff2') format('woff2'),
+       url('../fonts/bira_personal_use_only-webfont.woff') format('woff'),
+       url('../fonts/bira_personal_use_only-webfont.ttf') format('truetype'),
+       url('../fonts/bira_personal_use_only-webfont.svg#bira_personal_use_onlyregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, .title {
+  font-family: bira, sans-serif;
+}
+
+a { text-decoration: none; }
+
+.fleft { float: left; }
+.fright { float: right; }
+.overflow { overflow: hidden; }
+
+#header {
+  height: 300px;
+  padding-top: 15px;
+}
+
+.content {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#footer {
+  background: url('../images/bg-footer.jpg') repeat-x center top;
+  height: 200px;
+}

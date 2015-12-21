@@ -1,0 +1,11 @@
+.ico {
+  position: relative;
+  background: url('../images/sprite-icons-social.png') no-repeat;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+}
+
+.ico-phone {
+  background-position: -170px 0;
+}

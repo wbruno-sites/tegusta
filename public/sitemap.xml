@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+    xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://tegustaempanadas.com.br/</loc>
+  <mobile:mobile/>
+  <lastmod>2015-12-21T09:55:00+00:00</lastmod>
+  <priority>1.00</priority>
+  <image:image>
+  <image:title>Logo Te Gusta Empanadas</image:title>
+  <image:loc>http://tegustaempanadas.com.br/images/logo-te-gusta-empanadas.png</image:loc>
+  </image:image>
+  <image:image>
+  <image:title>Empanadas Típico Argentinas</image:title>
+  <image:loc>http://tegustaempanadas.com.br/images/empanadas-home.png</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>http://tegustaempanadas.com.br/como-comprar.html</loc>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>http://tegustaempanadas.com.br/cardapio.html</loc>
+  <priority>0.30</priority>
+</url>
+</urlset>
