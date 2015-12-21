@@ -5,7 +5,7 @@ var smtpTransport = nodemailer.createTransport(config.get('smtp'));
 
 var mailOptions = {
   from: "No-Reply <wbrunom@gmail.com>", // sender address
-  to: "tegusta@gmail.com", // list of receivers
+  to: "tegustaempanadas@gmail.com", // list of receivers
   subject: "Pedido | Te Gusta" // Subject line
 }
 

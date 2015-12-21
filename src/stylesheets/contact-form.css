@@ -26,9 +26,10 @@ label span { display: block; margin-bottom: 8px; text-align: left; }
   height: 45px; line-height: 45px;
   padding: 0 10px; border-radius: 5px;
   border: 1px solid #deddda;
+  background: #fbfbfb;
 }
 .input-small { width: 69%; border: 1px solid #deddda; }
-.textarea { height: 137px; border: 1px solid #deddda; }
+.textarea { height: 137px; border: 1px solid #deddda; background: #fbfbfb;}
 
 .input-submit {
   background: #01a705;
