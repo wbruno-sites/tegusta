@@ -6,7 +6,7 @@
   </div>
 
   <form action="/" method="post" id="form" class="content">
-    <fieldset class="fleft">
+    <fieldset class="form-column fleft">
       <label for="nome">
         <span>Seu nome *</span>
         <input type="text" name="nome" id="nome" class="input-text" placeholder="Digite seu nome" />
@@ -23,17 +23,17 @@
         <img src="/images/marker.png" title="Clique para preencher o seu cep" alt="Preencher com minha Localização" width="26" height="26" class="is-hidden geolocation" id="js-geo" />
         <label for="cep" class="fleft">
           <span>CEP</span>
-          <input type="text" name="cep" id="cep" class="input-text input-small" maxlength="9" placeholder="00000-000" />
+          <input type="text" name="cep" id="cep" class="input-text" maxlength="9" placeholder="00000-000" />
         </label>
         <label for="numero" class="fright">
           <span>Número</span>
-          <input type="text" name="numero" id="numero" class="input-text input-small" maxlength="20" placeholder="00 /ap 00" />
+          <input type="text" name="numero" id="numero" class="input-text" maxlength="20" placeholder="00 /ap 00" />
         </label>
 
         <p id="address" class="clear"></p>
       </fieldset>
     </fieldset>
-    <fieldset class="fleft">
+    <fieldset class="form-column fleft">
       <label for="email">
         <span>Seu e-mail *</span>
         <input type="email" name="email" required="required" id="email" class="input-text" />
@@ -43,7 +43,7 @@
         <textarea name="detalhes" cols="20" rows="3" id="detalhes" class="input-text textarea"></textarea>
       </label>
     </fieldset>
-    <fieldset class="fright">
+    <fieldset class="form-column fright">
       <label class="form-legend">Quais sabores você deseja?</label>
 {% for flavor,product in products %}
       <label class="label-flavor">
