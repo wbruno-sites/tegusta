@@ -1,8 +1,14 @@
 #banner {
   color: #fff;
+  height: 660px;
+  padding-top: 80px;
 }
 
-#banner-img figcaption { color: #fff; text-align: center; }
+#banner-img figcaption {
+  color: #fff;
+  text-align: center;
+  font-size: 0.9em;
+}
 
 #banner-info {
   width: 200px;

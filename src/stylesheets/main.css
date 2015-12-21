@@ -22,10 +22,16 @@ h1, h2, h3, h4, h5, h6, .title {
 }
 
 a { text-decoration: none; }
+a:hover, a:focus { opacity: 0.9; }
 
 .fleft { float: left; }
 .fright { float: right; }
 .overflow { overflow: hidden; }
+
+.cf:before, .cf:after { content: " "; display: table }
+.cf:after { clear: both }
+
+.is-hidden { display: none; }
 
 *::selection { background: #CC3A21; color: #fff; }
 *::-moz-selection { background: #CC3A21; color: #fff; }
@@ -38,9 +44,9 @@ a { text-decoration: none; }
 #footer {
   padding-top: 20px;
   background: url('../images/bg-footer.jpg') repeat-x center top;
-  height: 180px;
+  height: 170px;
 }
 
 #logo-footer {
-  width: 215px;
+  width: 200px;
 }
