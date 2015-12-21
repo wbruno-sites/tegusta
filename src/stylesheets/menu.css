@@ -1,4 +1,28 @@
 #menu {
-  height: 430px;
+  height: 380px;
   margin-bottom: 20px;
+  padding-top: 50px;
 }
+
+.menu-item {
+  width: 30%;
+  margin-right: 5%;
+  float: left;
+  padding: 40px 0;
+  border-right: 1px solid #d3d2d2;
+  box-sizing: border-box;
+}
+
+.menu-item a { color: #000; }
+
+.menu-item:last-child { margin-right: 0; border: none; }
+
+.menu-item .ico { float: left; margin-right: 10px; }
+
+.menu-name {
+  display: block;
+  color: #cd371d;
+  font-size: 2em;
+}
+
+.menu-text { margin-top: 30px; display: block; }
