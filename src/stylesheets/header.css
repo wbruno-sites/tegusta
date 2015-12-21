@@ -17,6 +17,6 @@
   display: inline-block;
 }
 
-.delivery-text { line-height: 2em; }
+.delivery-text { line-height: 2em; margin-top: 10px; }
 
 .phone .ico { float: left; margin-right: 7px; }
