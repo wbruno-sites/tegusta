@@ -1,0 +1,30 @@
+#banner-img figcaption { color: #fff; }
+
+#banner-title {
+  font-size: 3em;
+  color: #fec130;
+  text-shadow:
+  /* first layer */
+  -2px 0 black,
+  0 2px black,
+  2px 0 black,
+  0 -2px black,
+
+  /* second layer */
+  -3px -3px 0px white,
+  -1px -3px 0px white,
+  0px -3px 0px white,
+  1px -3px 0px white,
+  3px -3px 0px white,
+  3px -1px 0px white,
+  3px  0px 0px white,
+  3px  1px 0px white,
+  3px  3px 0px white,
+  1px  3px 0px white,
+  0px  3px 0px white,
+  -1px  3px 0px white,
+  -3px  3px 0px white,
+  -3px  1px 0px white,
+  -3px  0px 0px white,
+  -3px -1px 0px white;
+}

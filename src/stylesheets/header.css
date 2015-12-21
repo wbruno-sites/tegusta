@@ -2,20 +2,11 @@
   float: left;
 }
 
-#banner-img figcaption { color: #fff; }
-
-.nav-item {
-  float: left;
-  position: relative;
-  font-family: bira, sans-serif;
-}
-
-.nav-item a {
-  color: #db3114;
-}
-
-.nav-item a:hover { opacity: 0.8; }
-
 #phone {
   color: #db3114;
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 36px;
+  height: 36px;
+  display: inline-block;
 }

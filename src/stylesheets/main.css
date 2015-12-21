@@ -2,6 +2,7 @@ html, body { min-height: 100%; }
 
 body {
   background: url('../images/bg-site.jpg') no-repeat center top;
+  font: 18px 'Yanone Kaffeesatz', sans-serif;
 }
 
 @font-face {
@@ -30,6 +31,9 @@ a { text-decoration: none; }
   height: 300px;
   padding-top: 15px;
 }
+
+*::selection { background: #CC3A21; color: #fff; }
+*::-moz-selection { background: #CC3A21; color: #fff; }
 
 .content {
   width: 1140px;
