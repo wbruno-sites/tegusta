@@ -57,9 +57,9 @@
 }
 
 #banner-splash {
-  background: url('../images/splash-price.png');
+  background: url('../images/splash-price.png') no-repeat;
   width: 240px;
-  height: 140px;
+  height: 125px;
   padding-top: 168px;
   padding-left: 59px;
   padding-right: 40px;
