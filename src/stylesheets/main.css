@@ -2,19 +2,7 @@ html, body { min-height: 100%; }
 
 body {
   background: url('../images/bg-site.jpg') no-repeat center top;
-  font: 18px 'Yanone Kaffeesatz', sans-serif;
-}
-
-@font-face {
-  font-family: 'bira';
-  src: url('../fonts/bira_personal_use_only-webfont.eot');
-  src: url('../fonts/bira_personal_use_only-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/bira_personal_use_only-webfont.woff2') format('woff2'),
-       url('../fonts/bira_personal_use_only-webfont.woff') format('woff'),
-       url('../fonts/bira_personal_use_only-webfont.ttf') format('truetype'),
-       url('../fonts/bira_personal_use_only-webfont.svg#bira_personal_use_onlyregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  font: 18px 'yanone_kaffeesatzlight', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, .title {

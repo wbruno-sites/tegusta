@@ -6,7 +6,7 @@ input, select, textarea, fieldset { border: none; }
 }
 .form-action-header {
   text-align: center; color: #cd371d; font-size: 1.2em;
-  margin-bottom: 15px;
+  margin-bottom: 15px !important;
 }
 
 .form-action-header-text {
@@ -40,9 +40,12 @@ label span { display: block; margin-bottom: 8px; text-align: left; }
   font-size: 22px;
   margin-top: 20px;
   cursor: pointer;
+  font-family: bira, sans-serif;
+  text-shadow: 1px 0 0 black;
+  border-bottom: 5px solid #027305;
 }
 .input-submit:hover,
-.input-submit:active { background: #abcd33; }
+.input-submit:active { background: #1cd120; }
 .form-legend { font-size: 24px; }
 .wrap-geo { position: relative; padding: 0; }
 .geolocation {
