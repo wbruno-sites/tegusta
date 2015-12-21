@@ -6,7 +6,7 @@ var router = require('express').Router(),
     geo    = require('./geo');
 
 router.get('/', function(request, response) {
-  response.render('home', {});
+  response.render('home', { page: 'home' });
 });
 
 router.get('/index.html', function(request, response) {

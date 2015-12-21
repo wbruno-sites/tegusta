@@ -67,7 +67,7 @@
     ga('send', 'pageview');
   </script>
 </head>
-<body>
+<body id="{{page}}">
   <header id="header" class="content">
     <a href="/" title="Te Gusta Empanadas Argentinas" id="logo">
     <img src="images/logo-te-gusta-empanadas.png" alt="Te Gusta Empanadas" />
@@ -78,13 +78,5 @@
 
 {% include "partials/social.html" %}
     </p>
-    <nav id="nav" class="overflow clear-right fright">
-      <ul>
-        <li class="nav-item nav-item-home"><a href="">Home</a></li>
-        <li class="nav-item nav-item-historia"><a href="">História</a></li>
-        <li class="nav-item nav-item-cardapio"><a href="">Cardápio</a></li>
-        <li class="nav-item nav-item-como-e-feito"><a href="">Como é feito?</a></li>
-        <li class="nav-item nav-item-como-comprar"><a href="">Como comprar?</a></li>
-      </ul>
-    </nav>
+{% include "partials/nav.html" %}
   </header><!-- #header -->
