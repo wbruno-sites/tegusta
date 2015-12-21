@@ -2,24 +2,39 @@
 
 let products = {
   carne: {
-    name: 'Empanada de Carne', description: 'A tradicional empanada de carne moída, típico argentina',
-    price: '4,00', url: '/empanada-de-carne.html'
+    name: 'Empanada de Carne',
+    description: 'A tradicional empanada de carne moída, típico argentina',
+    tpl: 'empanada-de-carne',
+    price: '4,00',
+    url: '/empanada-de-carne.html'
   },
   carnePimenta: {
-    name: 'Empanada de Carne com Pimenta', description: 'Todo o sabor da tradicional empanada típico argentina com pimenta',
-    price: '4,00', url: '/empanada-de-carne-com-pimenta.html'
+    name: 'Empanada de Carne com Pimenta',
+    description: 'Todo o sabor da tradicional empanada típico argentina com pimenta',
+    tpl: 'empanada-de-carne-com-pimenta',
+    price: '4,00',
+    url: '/empanada-de-carne-com-pimenta.html'
   },
   frangoComCatupiry: {
-    name: 'Empanada de Frango com Catupiry', description: 'Todo o sabor da tradicional empanada típico argentina com pimenta',
-    price: '4,00', url: '/empanada-de-frango-com-catupiry.html'
+    name: 'Empanada de Frango com Catupiry',
+    description: 'Todo o sabor da tradicional empanada típico argentina com pimenta',
+    tpl: 'empanada-de-frango-com-catupiry',
+    price: '4,00',
+    url: '/empanada-de-frango-com-catupiry.html'
   },
   palmito: {
-    name: 'Empanada de Palmito', description: 'Empanada de palmito',
-    price: '4,00', url: '/empanada-de-palmito.html'
+    name: 'Empanada de Palmito',
+    description: 'Empanada de palmito',
+    tpl: 'empanada-de-palmito',
+    price: '4,00',
+    url: '/empanada-de-palmito.html'
   },
   bacalhau: {
-    name: 'Empanada de Bacalhau', description: 'Empanada de bacalhau',
-    price: '6,00', url: '/empanada-de-bacalhau.html'
+    name: 'Empanada de Bacalhau',
+    description: 'Empanada de bacalhau',
+    tpl: 'empanada-de-bacalhau',
+    price: '6,00',
+    url: '/empanada-de-bacalhau.html'
   }
 };
 

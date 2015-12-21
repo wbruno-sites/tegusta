@@ -4,7 +4,7 @@ body {
   background: url('../images/bg-site.png') no-repeat center top;
   font: 18px 'yanone_kaffeesatzlight', sans-serif;
 }
-body#home {
+body.home {
   background-image: url('../images/bg-site-home.jpg');
 }
 

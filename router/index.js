@@ -1,9 +1,11 @@
 'use strict';
 
-var router = require('express').Router(),
-    moment = require('moment-timezone'),
-    mail   = require('./mail'),
-    geo    = require('./geo');
+var router    = require('express').Router(),
+    moment    = require('moment-timezone'),
+    products  = require('./products'),
+    mail      = require('./mail'),
+    geo       = require('./geo');
+
 
 router.get('/', function(request, response) {
   response.render('home', { page: 'home' });
@@ -32,5 +34,7 @@ router.get('/telephone', function(req, res) {
 router.get('/geo/:pos', geo.locate);
 
 router.post('/', mail.send);
+
+router.use('/', products);
 
 module.exports = router;
