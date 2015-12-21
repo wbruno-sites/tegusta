@@ -26,6 +26,8 @@ a:hover, a:focus { opacity: 0.9; }
 
 .fleft { float: left; }
 .fright { float: right; }
+.clear { clear: both; }
+.clear-right { clear: right; }
 .overflow { overflow: hidden; }
 
 .cf:before, .cf:after { content: " "; display: table }

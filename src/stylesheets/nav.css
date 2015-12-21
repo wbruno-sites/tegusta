@@ -8,6 +8,8 @@
   margin-right: 25px
 }
 
+.nav-item:last-child { margin-right: 4px; }
+
 .nav-item a {
   color: #db3114;
 

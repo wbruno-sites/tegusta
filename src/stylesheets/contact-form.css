@@ -4,7 +4,10 @@ input, select, textarea, fieldset { border: none; }
   padding: 30px 0;
   color: #666;
 }
-.form-action-header { text-align: center; color: #cd371d; font-size: 1.2em; }
+.form-action-header {
+  text-align: center; color: #cd371d; font-size: 1.2em;
+  margin-bottom: 15px;
+}
 
 .form-action-header-text {
   border-top: 1px solid #d6d5d5;
