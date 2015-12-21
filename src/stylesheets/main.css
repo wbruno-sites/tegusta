@@ -27,11 +27,6 @@ a { text-decoration: none; }
 .fright { float: right; }
 .overflow { overflow: hidden; }
 
-#header {
-  height: 300px;
-  padding-top: 15px;
-}
-
 *::selection { background: #CC3A21; color: #fff; }
 *::-moz-selection { background: #CC3A21; color: #fff; }
 
@@ -41,6 +36,11 @@ a { text-decoration: none; }
 }
 
 #footer {
+  padding-top: 20px;
   background: url('../images/bg-footer.jpg') repeat-x center top;
-  height: 200px;
+  height: 180px;
+}
+
+#logo-footer {
+  width: 215px;
 }

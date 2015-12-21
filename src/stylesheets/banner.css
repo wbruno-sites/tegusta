@@ -1,8 +1,21 @@
-#banner-img figcaption { color: #fff; }
+#banner {
+  color: #fff;
+}
+
+#banner-img figcaption { color: #fff; text-align: center; }
+
+#banner-info {
+  width: 200px;
+  float: left;
+}
 
 #banner-title {
-  font-size: 3em;
+  font-size: 3.1em;
   color: #fec130;
+  line-height: 1.4em;
+  padding: 0 5px;
+  margin-bottom: 20px;
+
   text-shadow:
   /* first layer */
   -2px 0 black,
@@ -28,3 +41,12 @@
   -3px  0px 0px white,
   -3px -1px 0px white;
 }
+
+#banner-title span { margin-left: 40px; }
+
+#banner-text {
+  margin-left: 40px;
+  text-shadow: 1px 0 0 black;
+}
+
+
