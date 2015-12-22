@@ -23,7 +23,15 @@
   </image:image>
 </url>
 <url>
-  <loc>http://tegustaempanadas.com.br/como-comprar.html</loc>
+  <loc>http://tegustaempanadas.com.br/empanada-de-carne.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://tegustaempanadas.com.br/empanada-de-carne-com-pimenta.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://tegustaempanadas.com.br/historia.html</loc>
   <priority>0.30</priority>
 </url>
 <url>
