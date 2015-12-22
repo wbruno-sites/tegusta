@@ -29,7 +29,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #header .ico-flag { position: absolute; top: 20px; right: 20px; }
+  #header .ico-flag { position: absolute; top: 5px; right: 20px; }
 
   #header .phone, #header .social-links { display: inline; }
 }
