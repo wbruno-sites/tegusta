@@ -11,11 +11,9 @@ router.get('/', function(request, response) {
   response.render('home', { page: 'home' });
 });
 
-router.get('/index.html', function(request, response) {
-  response.redirect(301, '/');
-});
+router.use('/', products);
 
-router.get('/empanada', function(request, response) {
+router.get(/\/(index\.html|empanada)$/, function(request, response) {
   response.redirect(301, '/');
 });
 
@@ -34,7 +32,5 @@ router.get('/telephone', function(req, res) {
 router.get('/geo/:pos', geo.locate);
 
 router.post('/', mail.send);
-
-router.use('/', products);
 
 module.exports = router;

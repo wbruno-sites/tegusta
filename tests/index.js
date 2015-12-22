@@ -23,6 +23,20 @@ describe('Routes', function() {
       });
   });
 
+  it('Telephone', function(done) {
+    request(app)
+      .get('/telephone')
+      .expect(200)
+      .expect('content-type', 'application/json')
+      .end(function(err, res) {
+        var body = res.body;
+        assert.ok(body.now);
+        assert.ok(body.telephone);
+        assert.ok(body.until);
+        done();
+      });
+  });
+
   it('Moved Permanently', function(done) {
     request(app)
       .get('/empanada')
