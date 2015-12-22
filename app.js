@@ -4,12 +4,12 @@ var express         = require('express'),
     nunjucks        = require('nunjucks'),
 
     router          = require('./router'),
-    products        = require('./products'),
+    products        = require('./content').products,
 
     app             = express();
 
 
-app.locals.products = products.products;
+app.locals.products = products;
 app.locals.phoneNumber = '(11) 9 6309-9227';
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');

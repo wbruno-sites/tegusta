@@ -11,6 +11,7 @@ body.home {
 
 h1, h2, h3, h4, h5, h6, .title {
   font-family: bira, sans-serif;
+  margin-bottom: 0.5em;
 }
 h1 { font-size: 2.3em; color: #E74D26; }
 
@@ -30,6 +31,8 @@ a:hover, a:focus { opacity: 0.9; }
 
 *::selection { background: #CC3A21; color: #fff; }
 *::-moz-selection { background: #CC3A21; color: #fff; }
+
+p { margin-bottom: 1em; }
 
 .content {
   width: 1140px;

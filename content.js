@@ -39,3 +39,20 @@ let products = {
 };
 
 exports.products = products;
+
+let pages = {
+  historia: {
+    name: 'História das Empanadas Argentinas',
+    description: 'Saiba a história',
+    tpl: 'historia',
+    url: '/historia.html'
+  },
+  cardapio: {
+    name: 'Cardápio dos sabores',
+    description: 'Saiba a história',
+    tpl: 'cardapio',
+    url: '/cardapio.html'
+  }
+};
+
+exports.pages = pages;

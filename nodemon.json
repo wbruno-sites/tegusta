@@ -13,7 +13,8 @@
     "js": "node"
   },
   "watch": [
-    "*.js"
+    "*.js",
+    "*.html"
   ],
   "env": {
     "NODE_ENV": "development"

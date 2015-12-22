@@ -189,7 +189,7 @@
         if(json.status === 'ok') {
           alert('Tudo certo! já já lhe enviaremos um email para combinar a data de entrega.');
         } else {
-          alert('Por favor tente novamente, ou nos peça por email strudelfolhadinho@gmail.com');
+          alert('Por favor tente novamente, ou nos peça por email tegustaempanadas@gmail.com');
         }
       });
     });

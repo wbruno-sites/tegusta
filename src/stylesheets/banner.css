@@ -12,7 +12,7 @@
 }
 
 #banner-info {
-  width: 200px;
+  width: 250px;
   float: left;
 }
 
@@ -99,4 +99,24 @@
   position: absolute;
   bottom: 50px;
   right: 90px;
+}
+
+#banner-info #learn-more { margin: 30px 0 0 40px; }
+
+#learn-more {
+  background: rgba(154, 38, 18, 0.7);
+  border-radius: 7px;
+  padding: 10px 15px;
+  display: block;
+  color: #fff;
+  text-align: center;
+
+  text-shadow: -1px 0 black;
+}
+
+.learn-more-title {
+  color: #fec130;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.3em;
 }

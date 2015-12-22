@@ -1,7 +1,7 @@
 'use strict';
 
 var router = require('express').Router(),
-    products = require('../products').products;
+    products = require('../content').products;
 
 for (let i in products) {
   let product = products[i];
