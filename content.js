@@ -8,13 +8,13 @@ let products = {
     price: '4,00',
     url: '/empanada-de-carne.html'
   },
-  carnePimenta: {
-    name: 'Empanada de Carne com Pimenta',
-    description: 'Todo o sabor da tradicional empanada típico argentina com pimenta',
-    tpl: 'empanada-de-carne-com-pimenta',
-    price: '4,00',
-    url: '/empanada-de-carne-com-pimenta.html'
-  },
+  // carnePimenta: {
+  //   name: 'Empanada de Carne com Pimenta',
+  //   description: 'Todo o sabor da tradicional empanada típico argentina com pimenta',
+  //   tpl: 'empanada-de-carne-com-pimenta',
+  //   price: '4,00',
+  //   url: '/empanada-de-carne-com-pimenta.html'
+  // },
   frangoComCatupiry: {
     name: 'Empanada de Frango com Catupiry',
     description: 'Todo o sabor da tradicional empanada típico argentina com pimenta',
