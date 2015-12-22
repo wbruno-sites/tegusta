@@ -72,6 +72,22 @@ p { margin-bottom: 1em; }
   img { max-width: 100% !important; height: auto !important; }
 }
 
+@media only screen and (max-width: 800px) {
+  body,
+  body.home { background: none; }
+
+
+  #header,
+  #footer,
+  #banner { height: auto; padding-bottom: 20px; }
+
+  #header,
+  #footer { background: url('../images/bg-header-responsive.png'); }
+  #banner { background: url('../images/bg-banner-responsive.png'); }
+  #menu { background: url('../images/bg-menu-responsive.png'); }
+
+}
+
 @media only screen and (max-width: 700px) {
   body { font-size: 16px; }
 }

@@ -52,3 +52,7 @@
   .nav-item { float: none; margin-right: 0; }
 }
 
+
+@media only screen and (max-width: 600px) {
+  #nav { float: none; }
+}
