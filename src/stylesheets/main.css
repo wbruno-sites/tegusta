@@ -38,6 +38,7 @@ p { margin-bottom: 1em; }
 .content {
   width: 1140px;
   margin: 0 auto;
+  position: relative;
 }
 
 #footer {
@@ -72,10 +73,11 @@ p { margin-bottom: 1em; }
   img { max-width: 100% !important; height: auto !important; }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px), screen and (min-width: 1920px) {
   body,
   body.home { background: none; }
 
+  #header { margin-bottom: 0; }
   #header,
   #footer,
   #banner { height: auto; padding-bottom: 20px; }
@@ -84,8 +86,14 @@ p { margin-bottom: 1em; }
   #footer { background: url('../images/bg-header-responsive.png'); }
   #banner { background: url('../images/bg-banner-responsive.png'); }
   #menu { background: url('../images/bg-menu-responsive.png'); }
+}
 
+@media only screen and (max-width: 800px) {
   .footer-text { float: none; }
+}
+
+@media only screen and (min-width: 1920px) {
+  .content { width: 1600px; }
 }
 
 @media only screen and (max-width: 700px) {

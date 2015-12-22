@@ -3,4 +3,12 @@
   #form-action,
   #footer
    { display: none; }
+
+  #banner-splash { background: none; }
+
+  #header { margin-bottom: 0; }
+  #header,
+  #footer,
+  #banner,
+  #menu { height: auto; padding-bottom: 20px; }
 }
