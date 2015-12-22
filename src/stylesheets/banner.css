@@ -123,6 +123,7 @@
 
 
 @media only screen and (max-width: 1140px) {
+  #banner-title { text-align: center; }
   #banner-info { float: none; width: auto; }
 
   #banner { padding-top: 60px; }
@@ -130,17 +131,17 @@
   #banner-info #learn-more,
   #banner-text { margin-left: 0; }
 
-  #banner-img { float: none; }
-  #banner-img img { margin: 0 auto; display: block; }
-}
-@media only screen and (max-width: 900px) {
-  #banner { padding-top: 30px; }
-
   #banner-splash {
     position: static; width: auto; height: auto; padding: 0;
     text-shadow: 1px 0 0 black;
   }
   .banner-splash-text { position: static; }
+
+  #banner-img { float: none; }
+  #banner-img img { margin: 0 auto; display: block; }
+}
+@media only screen and (max-width: 900px) {
+  #banner { padding-top: 30px; }
 
   #banner-info #learn-more {
     float: left;
@@ -149,5 +150,10 @@
 }
 
 @media only screen and (max-width: 700px) {
+  #banner-title { font-size: 2.5em; }
   #banner-info #learn-more { float: none; margin-bottom: 10px; }
+}
+
+@media only screen and (max-width: 600px) {
+  #banner-title { font-size: 2em; }
 }

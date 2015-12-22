@@ -46,7 +46,7 @@ p { margin-bottom: 1em; }
   height: 170px;
 }
 
-#logo-footer {
+#footer .logo img {
   width: 200px;
 }
 
@@ -76,7 +76,6 @@ p { margin-bottom: 1em; }
   body,
   body.home { background: none; }
 
-
   #header,
   #footer,
   #banner { height: auto; padding-bottom: 20px; }
@@ -86,10 +85,16 @@ p { margin-bottom: 1em; }
   #banner { background: url('../images/bg-banner-responsive.png'); }
   #menu { background: url('../images/bg-menu-responsive.png'); }
 
-
   .footer-text { float: none; }
 }
 
 @media only screen and (max-width: 700px) {
   body { font-size: 16px; }
+
+  .logo img { width: 250px; }
+  #footer .logo img { width: 140px; }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo img { width: 200px; }
 }

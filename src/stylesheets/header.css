@@ -19,7 +19,7 @@
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 960px) {
   #header { margin-bottom: 0; }
 
   #header .social-links,
@@ -29,7 +29,13 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #header .ico-flag { position: absolute; top: 20px; right: 20px; }
+
   .logo { float: none; }
   .logo img { margin: 0 auto; display: block; }
   #header .phone, #header .social-links { display: inline; }
+}
+
+@media only screen and (max-width: 500px) {
+  #header .phone, #header .social-links { display: block; }
 }

@@ -43,7 +43,7 @@ label span { display: block; margin-bottom: 8px; text-align: left; }
   background: #01a705;
   border-radius: 7px;
   display: block;
-  width: 85%; height: 40px; line-height: 40px;
+  width: 100%; height: 40px; line-height: 40px;
   text-align: center; color: #fff;
   text-transform: uppercase; font-weight: bold;
   font-size: 22px;
@@ -70,5 +70,4 @@ label span { display: block; margin-bottom: 8px; text-align: left; }
 
 @media only screen and (max-width: 600px) {
   .form-column { margin: 0; width: 100%; }
-
 }
