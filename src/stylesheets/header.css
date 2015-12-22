@@ -31,8 +31,6 @@
 @media only screen and (max-width: 600px) {
   #header .ico-flag { position: absolute; top: 20px; right: 20px; }
 
-  .logo { float: none; }
-  .logo img { margin: 0 auto; display: block; }
   #header .phone, #header .social-links { display: inline; }
 }
 
