@@ -1,0 +1,24 @@
+{% extends "main.html" %}
+
+{% block content %}
+  <article id="main" class="content">
+    <h1>Cardápio dos sabores das Empanadas Argentinas</h1>
+
+    <ul class="chart">
+{% for flavor,product in products %}
+      <li>
+        <p class="chart-title">
+  {% if product.url %}
+          <a href="{{product.url}}" class="title chart-title-text bold">{{product.name}}</a>
+  {% else %}
+    <span class="title chart-title-text bold">{{product.name}}</span>
+  {% endif %}
+
+          <span class="fright">R$ {{product.price}}</span> </p>
+        <p>{{product.description}}</p>
+      </li>
+{% endfor %}
+    </ul>
+
+  </article>
+{% endblock %}
