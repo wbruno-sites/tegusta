@@ -22,6 +22,13 @@ let products = {
     price: '4,00',
     url: '/empanada-de-frango-com-catupiry.html'
   },
+  calabreza: {
+    name: 'Empanada de Calabreza',
+    description: 'Empanada de Calabreza',
+    tpl: 'empanada-de-cababreza',
+    price: '4,00',
+    url: '/empanada-de-cababreza.html'
+  },
   palmito: {
     name: 'Empanada de Palmito',
     description: 'Empanada de palmito',

@@ -141,4 +141,13 @@
     text-shadow: 1px 0 0 black;
   }
   .banner-splash-text { position: static; }
+
+  #banner-info #learn-more {
+    float: left;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #banner-info #learn-more { float: none; margin-bottom: 10px; }
 }

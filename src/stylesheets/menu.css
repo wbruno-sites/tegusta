@@ -32,5 +32,14 @@
 @media only screen and (max-width: 900px) {
   .menu-item { width: 33.33%; margin-right: 0;}
   .ico-menu { transform: scale(0.7, 0.7); }
+}
 
+@media only screen and (max-width: 800px) {
+  .menu-name { font-size: 1.3em; }
+}
+
+@media only screen and (max-width: 700px) {
+  .menu-item { text-align: center; }
+  .menu-item .ico { display: block; float: none; margin: 0 auto; }
+  .menu-text { margin-top: 0; }
 }
