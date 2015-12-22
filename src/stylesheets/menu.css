@@ -45,3 +45,10 @@
   .menu-item .ico { display: block; float: none; margin: 0 auto; }
   .menu-text { margin-top: 0; }
 }
+
+
+@media only screen and (max-width: 479px) {
+  .menu-item { width: 100%; border: none; text-align: left; padding: 0; }
+  .menu-item .ico { float: left; }
+  .menu-text { margin-top: 50px; }
+}

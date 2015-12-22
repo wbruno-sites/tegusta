@@ -86,6 +86,8 @@ p { margin-bottom: 1em; }
   #banner { background: url('../images/bg-banner-responsive.png'); }
   #menu { background: url('../images/bg-menu-responsive.png'); }
 
+
+  .footer-text { float: none; }
 }
 
 @media only screen and (max-width: 700px) {

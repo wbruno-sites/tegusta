@@ -67,3 +67,8 @@ label span { display: block; margin-bottom: 8px; text-align: left; }
 
 .form-column { width: 30%; margin-right: 5%; }
 .form-column:last-child { margin-right: 0; }
+
+@media only screen and (max-width: 600px) {
+  .form-column { margin: 0; width: 100%; }
+
+}
