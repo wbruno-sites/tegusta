@@ -1,9 +1,10 @@
+* { box-sizing: border-box; }
+
 html, body { min-height: 100%; }
 
 body {
   background: url('../images/bg-site.png') no-repeat center top;
   font: 18px 'yanone_kaffeesatzlight', sans-serif;
-  min-width: 1040px;
 }
 body.home {
   background-image: url('../images/bg-site-home.jpg');
@@ -58,3 +59,16 @@ p { margin-bottom: 1em; }
 }
 
 .social-links { margin-left: 10px; }
+
+
+@media only screen and (min-width: 1140px) {
+  body { min-width: 1040px; }
+}
+
+@media only screen and (max-width: 1139px) {
+  body { min-width: 100%; }
+  .content { width: 100%; padding: 0 20px; box-sizing: border-box; }
+
+  img { max-width: 100% !important; height: auto !important; }
+
+}
