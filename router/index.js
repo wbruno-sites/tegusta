@@ -9,7 +9,12 @@ var router    = require('express').Router(),
 
 
 router.get('/', function(request, response) {
-  response.render('home', { page: 'home' });
+  response.render('home', {
+    page: 'home',
+    title: '',
+    url: '',
+    description: 'Encomende empanadas argentinas. Entregamos empanadas argentinas para toda a cidade de São Paulo.'
+  });
 });
 
 router.use('/', pages);

@@ -7,7 +7,7 @@ for (let i in pages) {
   let page = pages[i];
 
   router.get(page.url, function(request, response) {
-    response.render(page.tpl, { title: page.name, description: page.description, price: page.price });
+    response.render(page.tpl, { title: page.name, description: page.description, price: page.price, url: page.url });
   });
 }
 

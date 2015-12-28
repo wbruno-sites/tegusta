@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <title>{{title}}Te Gusta Empanadas Argentinas</title>
+  <title>{% if title %}{{title}} - {% endif %}{{titleDefault}}</title>
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -13,8 +13,8 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png"/>
 
-  <link rel="canonical" href="{{canonical}}" />
-  <link rel="alternate" href="{{canonical}}" hreflang="pt-br" />
+  <link rel="canonical" href="http://www.tegustaempanadas.com.br{{url}}" />
+  <link rel="alternate" href="http://www.tegustaempanadas.com.br{{url}}" hreflang="pt-br" />
 
   <link rel="image_src" href="/images/logo-te-gusta-empanadas.png" />
   <link rel="alternate" href="/sitemap.xml" type="application/rss+xml" title="Feed de Te Gusta Empanadas"  />
@@ -30,13 +30,13 @@
 
   <meta name="p:domain_verify" content="" />
 
-  <meta property="og:title" content="{{title}}" />
+  <meta property="og:title" content="{% if title %}{{title}}{% else %}{{titleDefault}}{% endif %}" />
   <meta property="og:type" content="activity" />
-  <meta property="og:url" content="{{canonical}}/" />
+  <meta property="og:url" content="http://www.tegustaempanadas.com.br{{url}}/" />
   <meta property="og:image" content="http://tegustaempanadas.com.br/images/empanadas-home.png" />
   <meta property="og:description" content="{{description}}" />
 
-  <meta name="dcterms.title" content="{{title}}">
+  <meta name="dcterms.title" content="{% if title %}{{title}}{% else %}{{titleDefault}}{% endif %}">
   <meta name="dcterms.creator" content="Te Gusta Empanadas">
   <meta name="dcterms.description" content="{{description}}">
 
@@ -69,7 +69,7 @@
 <body class="{{page}}">
   <header id="header">
     <div class="content cf">
-    <a href="/" title="Te Gusta Empanadas Argentinas" id="logo" class="logo fleft">
+    <a href="/" title="{{titleDefault}}" id="logo" class="logo fleft">
     <img src="images/logo-te-gusta-empanadas.png" alt="Te Gusta Empanadas" />
     </a>
 

@@ -7,7 +7,7 @@ for (let i in products) {
   let product = products[i];
 
   router.get(product.url, function(request, response) {
-    response.render(product.tpl, { title: product.name, description: product.description, price: product.price });
+    response.render(product.tpl, { title: product.name, description: product.description, price: product.price, url: product.url });
   });
 }
 

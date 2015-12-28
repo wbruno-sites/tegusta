@@ -17,7 +17,7 @@ let products = {
   },
   frangoComCatupiry: {
     name: 'Empanada de Frango com Catupiry',
-    description: 'Todo o sabor da tradicional empanada típico argentina com pimenta',
+    description: 'Todo o sabor da tradicional empanada típico argentina no recheio com frango desfiado e requeijão da marca Catupiry.',
     tpl: 'empanada-de-frango-com-catupiry',
     price: '4,00',
     url: '/empanada-de-frango-com-catupiry.html'
@@ -31,14 +31,14 @@ let products = {
   },
   palmito: {
     name: 'Empanada de Palmito',
-    description: 'Empanada de palmito',
+    description: 'Empanada de palmito selecionado e molho bechamel',
     tpl: 'empanada-de-palmito',
     price: '4,00',
     url: '/empanada-de-palmito.html'
   },
   bacalhau: {
     name: 'Empanada de Bacalhau',
-    description: 'Empanada de bacalhau',
+    description: 'Empanada de bacalhau desfiado e purê de batatas.',
     tpl: 'empanada-de-bacalhau',
     price: '6,00',
     url: '/empanada-de-bacalhau.html'
