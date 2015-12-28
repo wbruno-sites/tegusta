@@ -3,14 +3,14 @@
 let products = {
   carne: {
     name: 'Empanada de Carne',
-    description: 'A tradicional empanada de carne moída, típico argentina',
+    description: 'A tradicional empanada de carne moída, típico argentina. Carne moída, cebola, bacon, orégano, azeitonas, uva passas e sal.',
     tpl: 'empanada-de-carne',
     price: '4,00',
     url: '/empanada-de-carne.html'
   },
   carnePimenta: {
     name: 'Empanada de Carne com Pimenta',
-    description: 'Todo o sabor da tradicional empanada típico argentina com pimenta',
+    description: 'Todo o sabor da tradicional empanada típico argentina com pimenta do reino, páprica doce, cumim, salsinha e sal.',
     tpl: 'empanada-de-carne-com-pimenta',
     price: '4,00',
     url: '/empanada-de-carne-com-pimenta.html'
@@ -24,14 +24,14 @@ let products = {
   },
   calabreza: {
     name: 'Empanada de Calabreza',
-    description: 'Empanada de Calabreza',
+    description: 'Empanada de Calabreza, azeitonas, cebola, páprica doce, pimenta calabreza e erva doce.',
     tpl: 'empanada-de-cababreza',
     price: '4,00',
     url: '/empanada-de-cababreza.html'
   },
   palmito: {
     name: 'Empanada de Palmito',
-    description: 'Empanada de palmito selecionado e molho bechamel',
+    description: 'Empanada de palmito selecionado e molho bechamel.',
     tpl: 'empanada-de-palmito',
     price: '4,00',
     url: '/empanada-de-palmito.html'
@@ -56,7 +56,7 @@ let pages = {
   },
   cardapio: {
     name: 'Cardápio dos sabores',
-    description: 'Saiba a história',
+    description: 'Veja o nosso cardápio de empanadas argentinas. Encomende o sabor de empanada que você mais gosta.',
     tpl: 'cardapio',
     url: '/cardapio.html'
   }
