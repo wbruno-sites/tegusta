@@ -8,6 +8,7 @@ let products = {
     price: '5,00',
     url: '/empanada-de-carne.html'
   },
+  /*
   carnePimenta: {
     name: 'Empanada de Carne com Pimenta',
     description: 'Todo o sabor da tradicional empanada típico argentina com pimenta do reino, páprica doce, cumim, salsinha e sal.',
@@ -15,6 +16,7 @@ let products = {
     price: '5,00',
     url: '/empanada-de-carne-com-pimenta.html'
   },
+  */
   frangoComCatupiry: {
     name: 'Empanada de Frango com Catupiry',
     description: 'Todo o sabor da tradicional empanada típico argentina no recheio com frango desfiado e requeijão da marca Catupiry.',
