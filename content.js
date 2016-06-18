@@ -3,52 +3,59 @@
 let products = {
   carne: {
     name: 'Empanada de Carne',
-    description: 'A tradicional empanada de carne moída, típico argentina. Carne moída, cebola, bacon, orégano, azeitonas, uva passas e sal.',
+    description: 'A tradicional empanada de carne moída, típico argentina. Carne moída, cebola, azeitona, uva passa, páprica doce e picante, cominho, pimenta do reino, orégano e salsinha.',
     tpl: 'empanada-de-carne',
     price: '5,00',
     url: '/empanada-de-carne.html'
   },
   carnePimenta: {
     name: 'Empanada de Carne com Pimenta',
-    description: 'Todo o sabor da tradicional empanada típico argentina com pimenta do reino, páprica doce, cumim, salsinha e sal.',
+    description: 'Todo o sabor da tradicional empanada típico argentina com pimenta calabresa, cebola, azeitona, uva passa, páprica doce e picante, cominho, pimenta do reino, orégano e salsinha.',
     tpl: 'empanada-de-carne-com-pimenta',
     price: '5,00',
     url: '/empanada-de-carne-com-pimenta.html'
   },
   carneSeca: {
     name: 'Empanada de Carne Seca',
-    description: 'Nossa empanada de carne seca com pimenta do reino, páprica doce, cumim, salsinha e sal.',
+    description: 'Nossa empanada de carne seca, cebola, margarina, páprica doce e picante, salsinha, orégano e requeijão da marca catupiry.',
     tpl: 'empanada-de-carne-seca',
     price: '6,00',
     url: '#'
   },
   frangoComCatupiry: {
     name: 'Empanada de Frango com Catupiry',
-    description: 'Todo o sabor da tradicional empanada típico argentina no recheio com frango desfiado e requeijão da marca Catupiry.',
+    description: 'Frango desfiado, cebola, margarina, salsinha, páprica doce e picante, orégano e requeijão da marca Catupiry.',
     tpl: 'empanada-de-frango-com-catupiry',
     price: '5,00',
     url: '/empanada-de-frango-com-catupiry.html'
   },
   calabresa: {
     name: 'Empanada de Calabresa',
-    description: 'Empanada de Calabresa, azeitonas, cebola, páprica doce, pimenta calabresa e erva doce.',
+    description: 'Calabresa especial, azeitonas, cebola, páprica doce e picante, orégano, salsinha e pimenta calabresa.',
     tpl: 'empanada-de-calabresa',
     price: '5,00',
     url: '/empanada-de-calabresa.html'
   },
   palmito: {
     name: 'Empanada de Palmito',
-    description: 'Empanada de palmito selecionado e molho bechamel.',
+    description: 'Palmito selecionado, molho bechamel (cebola, margarina, farinha, leite, páprica doce e picante)',
     tpl: 'empanada-de-palmito',
     price: '5,00',
     url: '/empanada-de-palmito.html'
   },
   bacalhau: {
     name: 'Empanada de Bacalhau',
-    description: 'Empanada de bacalhau desfiado e purê de batatas.',
+    description: 'Bacalhau desfiado e purê de batatas (leite, manteiga, cebola, creme de leite e salsinha)',
     tpl: 'empanada-de-bacalhau',
     price: '7,00',
     url: '/empanada-de-bacalhau.html'
+  },
+  quatroQueijos: {
+    name: 'Empanada de Quatro Queijos',
+    description: 'Queijo mussarela, queijo parmesão, queijo branco, requeijão da marca catupiry e orégano.',
+    tpl: 'empanada-de-quatro-queijos',
+    price: '5,00',
+    url: '/empanada-de-quatro-queijos.html'
   }
 };
 
