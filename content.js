@@ -47,14 +47,14 @@ let products = {
     name: 'Empanada de Bacalhau',
     description: 'Bacalhau desfiado e purê de batatas (leite, manteiga, cebola, creme de leite e salsinha)',
     tpl: 'empanada-de-bacalhau',
-    price: '7,00',
+    price: '10,00',
     url: '/empanada-de-bacalhau.html'
   },
   quatroQueijos: {
     name: 'Empanada de Quatro Queijos',
     description: 'Queijo mussarela, queijo parmesão, queijo branco, requeijão da marca catupiry e orégano.',
     tpl: 'empanada-de-quatro-queijos',
-    price: '5,00',
+    price: '8,00',
     url: '/empanada-de-quatro-queijos.html'
   }
 };
