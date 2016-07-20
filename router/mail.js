@@ -35,10 +35,10 @@ exports.send = function(req, res) {
         console.log(error);
       }else{
         console.log("Message sent: " + response.message);
+        res.json({ status: "ok" });
       }
     });
 
-    res.json({ status: "ok" });
   } else {
     res.json({ status: "spam" });
   }
