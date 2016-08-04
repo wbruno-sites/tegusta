@@ -47,7 +47,8 @@
       <label class="form-legend">Quais sabores você deseja?</label>
 {% for flavor,product in products %}
       <label class="label-flavor">
-        <input type="checkbox" name="sabor[]" value="{{product.name}}" /> {{product.name}} = <a href="{{product.url}}">R${{product.price}}</a>
+        <input type="checkbox" name="sabor[]" value="{{product.name}}" /> {{product.name}}
+         {# = <a href="{{product.url}}">R${{product.price}}</a> #}
       </label>
 {% endfor %}
       <label><input type="submit" name="enviar" value="Pedir agora!" class="input-submit" /></label>
