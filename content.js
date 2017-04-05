@@ -12,35 +12,35 @@ let products = {
     name: 'Empanada de Carne com Pimenta',
     description: 'Todo o sabor da tradicional empanada típico argentina com pimenta calabresa, cebola, azeitona, uva passa, páprica doce e picante, cominho, pimenta do reino, orégano e salsinha.',
     tpl: 'empanada-de-carne-com-pimenta',
-    price: '5,00',
+    price: '6,00',
     url: '/empanada-de-carne-com-pimenta.html'
   },
   carneSeca: {
     name: 'Empanada de Carne Seca',
     description: 'Nossa empanada de carne seca, cebola, margarina, páprica doce e picante, salsinha, orégano e requeijão da marca catupiry.',
     tpl: 'empanada-de-carne-seca',
-    price: '6,00',
+    price: '7,00',
     url: '#'
   },
   frangoComCatupiry: {
     name: 'Empanada de Frango com Catupiry',
     description: 'Frango desfiado, cebola, margarina, salsinha, páprica doce e picante, orégano e requeijão da marca Catupiry.',
     tpl: 'empanada-de-frango-com-catupiry',
-    price: '5,00',
+    price: '6,00',
     url: '/empanada-de-frango-com-catupiry.html'
   },
   calabresa: {
     name: 'Empanada de Calabresa',
     description: 'Calabresa especial, azeitonas, cebola, páprica doce e picante, orégano, salsinha e pimenta calabresa.',
     tpl: 'empanada-de-calabresa',
-    price: '5,00',
+    price: '6,00',
     url: '/empanada-de-calabresa.html'
   },
   palmito: {
     name: 'Empanada de Palmito',
     description: 'Palmito selecionado, molho bechamel (cebola, margarina, farinha, leite, páprica doce e picante)',
     tpl: 'empanada-de-palmito',
-    price: '5,00',
+    price: '6,00',
     url: '/empanada-de-palmito.html'
   },
   bacalhau: {
