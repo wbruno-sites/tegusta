@@ -5,7 +5,7 @@ let products = {
     name: 'Empanada de Carne',
     description: 'A tradicional empanada de carne moída, típico argentina. Carne moída, cebola, azeitona, uva passa, páprica doce e picante, cominho, pimenta do reino, orégano e salsinha.',
     tpl: 'empanada-de-carne',
-    price: '5,00',
+    price: '6,00',
     url: '/empanada-de-carne.html'
   },
   carnePimenta: {
