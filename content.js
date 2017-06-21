@@ -38,7 +38,7 @@ let products = {
   },
   palmito: {
     name: 'Empanada de Palmito',
-    description: 'Palmito selecionado, molho bechamel (cebola, margarina, farinha, leite, páprica doce e picante)',
+    description: 'Palmito selecionado, molho do chefe (cebola, leite, páprica doce e picante)',
     tpl: 'empanada-de-palmito',
     price: '6,00',
     url: '/empanada-de-palmito.html'
