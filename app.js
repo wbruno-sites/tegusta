@@ -11,7 +11,6 @@ var express         = require('express'),
 
 app.locals.products = products;
 app.locals.phoneNumber = '9 9305 1486';
-app.locals.phoneNumber2 = '37822391';
 app.locals.titleDefault = 'Te Gusta Empanadas Argentinas';
 
 app.set('view engine', 'html');
