@@ -1,43 +1,32 @@
 {
   "name": "tegusta",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha tests/*",
-    "start": "node ./bin/www",
-    "nodemon": "nodemon ./bin/www"
+    "start": "npx http-server public",
+    "test": "echo 'do nothing'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wbruno-sites/tegusta.git"
+    "url": "git+https://github.com/wbruno/tegusta.git"
   },
   "keywords": [],
   "author": "William Bruno <wbrunom@gmail.com> (http://wbruno.com.br)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wbruno-sites/tegusta/issues"
+    "url": "https://github.com/wbruno/tegusta/issues"
   },
-  "homepage": "https://github.com/wbruno-sites/tegusta#readme",
+  "homepage": "https://github.com/wbruno/tegusta#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-livereload": "^3.8.1",
     "gulp-minify-css": "^1.2.2",
     "gulp-uglify": "^1.5.1",
-    "gulp-util": "^3.0.7",
-    "istanbul": "^0.4.1",
-    "mocha": "^2.3.4",
-    "supertest": "^1.1.0"
+    "gulp-util": "^3.0.7"
   },
   "dependencies": {
-    "body-parser": "^1.14.2",
-    "config": "^1.17.1",
-    "express": "^4.13.3",
-    "method-override": "^2.3.5",
-    "moment-timezone": "^0.4.1",
-    "nodemailer": "^1.10.0",
-    "nunjucks": "^2.2.0",
-    "serve-static": "^1.10.0"
+    "http-server": "14.1.1"
   }
 }
