@@ -4,38 +4,41 @@ const concat      = require('gulp-concat')
 const minifycss   = require('gulp-minify-css')
 const uglify      = require('gulp-uglify')
 
-const css = {
+const cssFolder = {
   source: 'src/stylesheets',
   target: 'public/stylesheets'
 };
-const js = {
+const jsFolder = {
   source: 'src/javascripts',
   target: 'public/javascripts'
 };
 
-gulp.task('css', function () {
-  gulp.src([
-    css.source + '/normaset.css',
-    css.source + '/*.css'
+function css () {
+  return gulp.src([
+    cssFolder.source + '/normaset.css',
+    cssFolder.source + '/*.css'
   ])
   .pipe(concat('all.min.css'))
   .pipe(minifycss({keepSpecialComments: false}))
-  .pipe(gulp.dest(css.target))
-});
+  .pipe(gulp.dest(cssFolder.target))
+}
 
-gulp.task('js', function() {
-  gulp.src([
-    js.source + '/vendor/*.js',
-    js.source + '/*.js'
+function js () {
+  return gulp.src([
+    jsFolder.source + '/vendor/*.js',
+    jsFolder.source + '/*.js'
   ])
   .pipe(concat('all.min.js'))
   .pipe(uglify({ mangle: true }).on('error', gutil.log))
-  .pipe(gulp.dest(js.target))
-});
+  .pipe(gulp.dest(jsFolder.target))
+}
 
-gulp.task('watch', function() {
-  gulp.watch(css.source + '/*.css', ['css']);
-  gulp.watch(js.source + '/*.js', ['js']);
-});
+function watch() {
+  gulp.watch(cssFolder.source + '/*.css', css);
+  gulp.watch(jsFolder.source + '/*.js', js);
+}
 
-gulp.task('default', ['css', 'js']);
+const build = gulp.series(css, js)
+
+exports.watch = watch
+exports.default = build
